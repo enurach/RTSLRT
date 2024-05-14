@@ -3,9 +3,9 @@ import torch.nn as nn
 
 from model import SLDense
 
-def build_model(input_size, output_size, hidden_size):
+def build_model(input_size, output_size ):
     """Builds and returns an instance of SLDense."""
-    model = SLDense(input_size, output_size, hidden_size)
+    model = SLDense(input_size, output_size)
     return model
 
 
